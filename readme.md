@@ -77,3 +77,5 @@ All of this is handled by the [heroku-docker plugin's](https://github.com/heroku
 
 ASCIIfy also needs graphicsmagick, which isn't built into Heroku's Cedar-14 stack.
 We extend the stack to support the app by adding gm to the generated `Dockerfile`.
+
+
